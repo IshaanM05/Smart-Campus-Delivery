@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Campus - Advanced</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 20px; 
+            background: #1e1e1e; 
+            color: white; 
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .header { text-align: center; margin-bottom: 20px; }
+        .controls { background: #252526; padding: 15px; border-radius: 8px; margin-bottom: 20px; }
+        .metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 20px; }
+        .metric { background: #2a2d2e; padding: 15px; border-radius: 5px; text-align: center; }
+        .metric-value { font-size: 24px; font-weight: bold; }
+        .visualization { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .plot { background: #252526; padding: 15px; border-radius: 8px; height: 400px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Smart Campus Delivery - Advanced Web Interface</h1>
+            <p>Real-time simulation with WebSocket communication</p>
+        </div>
+        
+        <div class="controls">
+            <button onclick="startPrecomputation()">Start Precomputation</button>
+            <button onclick="togglePlay()" id="playBtn">Play</button>
+            <button onclick="resetSimulation()">Reset</button>
+            <input type="range" id="frameSlider" min="0" max="800" value="0" onchange="setFrame(this.value)">
+            <span id="frameInfo">Frame: 0/0</span>
+        </div>
+        
+        <div class="metrics">
+            <div class="metric">
+                <div class="metric-label">Active Agents</div>
+                <div class="metric-value" id="activeAgents">0</div>
+            </div>
+            <div class="metric">
+                <div class="metric-label">GPS Accuracy</div>
+                <div class="metric-value" id="gpsAccuracy">0%</div>
+            </div>
+            <div class="metric">
+                <div class="metric-label">Completed</div>
+                <div class="metric-value" id="completed">0</div>
+            </div>
+            <div class="metric">
+                <div class="metric-label">Efficiency</div>
+                <div class="metric-value" id="efficiency">0%</div>
+            </div>
+        </div>
+        
+        <div class="visualization">
+            <div class="plot" id="campusPlot"></div>
+            <div class="plot" id="analyticsPlot"></div>
+        </div>
+    </div>
+
+    <script>
+        const socket = io();
+        let currentFrame = 0;
+        let totalFrames = 0;
+        
+        socket.on('connection_established', (data) => {
+            console.log('Connected to server:', data);
+        });
+        
+        socket.on('precomputation_started', () => {
+            console.log('Precomputation started');
+        });
+        
+        socket.on('precomputation_complete', () => {
+            console.log('Precomputation complete');
+            document.getElementById('playBtn').disabled = false;
+        });
+        
+        socket.on('frame_update', (frameData) => {
+            updateVisualization(frameData);
+        });
+        
+        function startPrecomputation() {
+            socket.emit('start_precomputation');
+        }
+        
+        function togglePlay() {
+            socket.emit('control_simulation', { action: 'play' });
+        }
+        
+        function resetSimulation() {
+            socket.emit('control_simulation', { action: 'reset' });
+        }
+        
+        function setFrame(frame) {
+            socket.emit('control_simulation', { action: 'set_frame', frame: parseInt(frame) });
+        }
+        
+        function updateVisualization(frameData) {
+            // Update metrics
+            document.getElementById('activeAgents').textContent = frameData.statistics.active_count;
+            document.getElementById('gpsAccuracy').textContent = `${(100 - frameData.gps_accuracy * 10).toFixed(1)}%`;
+            document.getElementById('completed').textContent = frameData.statistics.returned_count;
+            document.getElementById('efficiency').textContent = `${frameData.statistics.efficiency.toFixed(1)}%`;
+            
+            // Update frame info
+            currentFrame = frameData.frame;
+            document.getElementById('frameInfo').textContent = `Frame: ${currentFrame}/${totalFrames}`;
+            document.getElementById('frameSlider').value = currentFrame;
+            
+            // Update plots (simplified)
+            updateCampusPlot(frameData);
+            updateAnalyticsPlot(frameData);
+        }
+        
+        function updateCampusPlot(frameData) {
+            // Implementation for campus plot update
+        }
+        
+        function updateAnalyticsPlot(frameData) {
+            // Implementation for analytics plot update
+        }
+        
+        // Initialize plots
+        Plotly.newPlot('campusPlot', [{x: [0], y: [0], type: 'scatter'}], {title: 'Campus Map'});
+        Plotly.newPlot('analyticsPlot', [{y: [0], type: 'bar'}], {title: 'Analytics'});
+    </script>
+</body>
+</html>

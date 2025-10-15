@@ -1,0 +1,175 @@
+2025-10-15 23:17:24,523 - INFO - Starting enhanced simulation precomputation...
+2025-10-15 23:17:24,523 - INFO - Computing frame 0/800
+2025-10-15 23:17:24,574 - INFO - Computing frame 1/800
+2025-10-15 23:17:24,601 - INFO - Computing frame 2/800
+2025-10-15 23:17:24,628 - INFO - Computing frame 3/800
+2025-10-15 23:17:24,655 - INFO - Computing frame 4/800
+2025-10-15 23:17:24,681 - INFO - Computing frame 5/800
+2025-10-15 23:17:24,707 - INFO - Computing frame 6/800
+2025-10-15 23:17:24,733 - INFO - Computing frame 7/800
+2025-10-15 23:17:24,762 - INFO - Computing frame 8/800
+2025-10-15 23:17:24,791 - INFO - Computing frame 9/800
+2025-10-15 23:17:25,868 - INFO - Computing frame 50/800
+2025-10-15 23:17:36,183 - INFO - Computing frame 100/800
+2025-10-15 23:17:52,603 - INFO - Computing frame 150/800
+2025-10-15 23:18:08,971 - INFO - Computing frame 200/800
+2025-10-15 23:18:26,116 - INFO - Computing frame 250/800
+2025-10-15 23:18:43,333 - INFO - Computing frame 300/800
+2025-10-15 23:19:01,047 - INFO - Computing frame 350/800
+2025-10-15 23:19:18,946 - INFO - Computing frame 400/800
+2025-10-15 23:19:37,258 - INFO - Computing frame 450/800
+2025-10-15 23:19:54,741 - INFO - Computing frame 500/800
+2025-10-15 23:20:12,650 - INFO - Computing frame 550/800
+2025-10-15 23:20:29,832 - INFO - Computing frame 600/800
+2025-10-15 23:20:48,484 - INFO - Computing frame 650/800
+2025-10-15 23:21:07,976 - INFO - Computing frame 700/800
+2025-10-15 23:21:27,630 - INFO - Computing frame 750/800
+2025-10-15 23:21:47,220 - INFO - Precomputation completed in 262.70s - 800 frames ready
+2025-10-15 23:21:47,247 - INFO - Precomputation monitoring completed
+2025-10-15 23:28:00,127 - INFO - Starting enhanced simulation precomputation...
+2025-10-15 23:28:00,127 - INFO - Computing frame 0/800
+2025-10-15 23:28:00,181 - INFO - Computing frame 1/800
+2025-10-15 23:28:00,208 - INFO - Computing frame 2/800
+2025-10-15 23:28:00,237 - INFO - Computing frame 3/800
+2025-10-15 23:28:00,266 - INFO - Computing frame 4/800
+2025-10-15 23:28:00,296 - INFO - Computing frame 5/800
+2025-10-15 23:28:00,326 - INFO - Computing frame 6/800
+2025-10-15 23:28:00,358 - INFO - Computing frame 7/800
+2025-10-15 23:28:00,390 - INFO - Computing frame 8/800
+2025-10-15 23:28:00,425 - INFO - Computing frame 9/800
+2025-10-15 23:28:01,532 - INFO - Computing frame 50/800
+2025-10-15 23:28:11,875 - INFO - Computing frame 100/800
+2025-10-15 23:28:27,817 - INFO - Computing frame 150/800
+2025-10-15 23:28:44,892 - INFO - Computing frame 200/800
+2025-10-15 23:29:03,170 - INFO - Computing frame 250/800
+2025-10-15 23:29:21,229 - INFO - Computing frame 300/800
+2025-10-15 23:29:41,055 - INFO - Computing frame 350/800
+2025-10-15 23:30:00,727 - INFO - Computing frame 400/800
+2025-10-15 23:30:20,628 - INFO - Computing frame 450/800
+2025-10-15 23:30:39,014 - INFO - Computing frame 500/800
+2025-10-15 23:30:57,632 - INFO - Computing frame 550/800
+2025-10-15 23:31:15,495 - INFO - Computing frame 600/800
+2025-10-15 23:31:33,652 - INFO - Computing frame 650/800
+2025-10-15 23:31:52,538 - INFO - Computing frame 700/800
+2025-10-15 23:32:12,184 - INFO - Computing frame 750/800
+2025-10-15 23:32:33,120 - INFO - Precomputation completed in 272.99s - 800 frames ready
+2025-10-15 23:32:33,164 - INFO - Precomputation monitoring completed
+2025-10-15 23:49:19,903 - INFO - Starting enhanced simulation precomputation...
+2025-10-15 23:49:19,904 - INFO - Computing frame 0/800
+2025-10-15 23:49:19,960 - INFO - Computing frame 1/800
+2025-10-15 23:49:19,984 - INFO - Computing frame 2/800
+2025-10-15 23:49:20,014 - INFO - Computing frame 3/800
+2025-10-15 23:49:20,041 - INFO - Computing frame 4/800
+2025-10-15 23:49:20,071 - INFO - Computing frame 5/800
+2025-10-15 23:49:20,099 - INFO - Computing frame 6/800
+2025-10-15 23:49:20,125 - INFO - Computing frame 7/800
+2025-10-15 23:49:20,154 - INFO - Computing frame 8/800
+2025-10-15 23:49:20,183 - INFO - Computing frame 9/800
+2025-10-15 23:49:21,277 - INFO - Computing frame 50/800
+2025-10-15 23:49:31,342 - INFO - Computing frame 100/800
+2025-10-15 23:49:47,270 - INFO - Computing frame 150/800
+2025-10-15 23:50:03,199 - INFO - Computing frame 200/800
+2025-10-15 23:50:20,093 - INFO - Computing frame 250/800
+2025-10-15 23:50:36,964 - INFO - Computing frame 300/800
+2025-10-15 23:50:54,361 - INFO - Computing frame 350/800
+2025-10-15 23:51:12,053 - INFO - Computing frame 400/800
+2025-10-15 23:51:30,257 - INFO - Computing frame 450/800
+2025-10-15 23:51:47,443 - INFO - Computing frame 500/800
+2025-10-15 23:52:05,052 - INFO - Computing frame 550/800
+2025-10-15 23:52:21,951 - INFO - Computing frame 600/800
+2025-10-15 23:52:39,204 - INFO - Computing frame 650/800
+2025-10-15 23:52:56,879 - INFO - Computing frame 700/800
+2025-10-15 23:53:14,829 - INFO - Computing frame 750/800
+2025-10-15 23:53:32,751 - INFO - Precomputation completed in 252.85s - 800 frames ready
+2025-10-15 23:53:32,805 - INFO - Precomputation monitoring completed
+2025-10-16 00:28:02,835 - INFO - Starting enhanced simulation precomputation...
+2025-10-16 00:28:02,835 - INFO - Computing frame 0/800
+2025-10-16 00:28:02,885 - INFO - Computing frame 1/800
+2025-10-16 00:28:02,915 - INFO - Computing frame 2/800
+2025-10-16 00:28:02,942 - INFO - Computing frame 3/800
+2025-10-16 00:28:02,970 - INFO - Computing frame 4/800
+2025-10-16 00:28:03,004 - INFO - Computing frame 5/800
+2025-10-16 00:28:03,034 - INFO - Computing frame 6/800
+2025-10-16 00:28:03,066 - INFO - Computing frame 7/800
+2025-10-16 00:28:03,096 - INFO - Computing frame 8/800
+2025-10-16 00:28:03,127 - INFO - Computing frame 9/800
+2025-10-16 00:28:04,203 - INFO - Computing frame 50/800
+2025-10-16 00:28:14,945 - INFO - Computing frame 100/800
+2025-10-16 00:28:30,897 - INFO - Computing frame 150/800
+2025-10-16 00:28:47,629 - INFO - Computing frame 200/800
+2025-10-16 00:29:05,763 - INFO - Computing frame 250/800
+2025-10-16 00:29:24,468 - INFO - Computing frame 300/800
+2025-10-16 00:29:43,732 - INFO - Computing frame 350/800
+2025-10-16 00:30:03,119 - INFO - Computing frame 400/800
+2025-10-16 00:30:21,834 - INFO - Computing frame 450/800
+2025-10-16 00:30:40,447 - INFO - Computing frame 500/800
+2025-10-16 00:30:59,152 - INFO - Computing frame 550/800
+2025-10-16 00:31:16,969 - INFO - Computing frame 600/800
+2025-10-16 00:31:35,733 - INFO - Computing frame 650/800
+2025-10-16 00:31:54,985 - INFO - Computing frame 700/800
+2025-10-16 00:32:14,656 - INFO - Computing frame 750/800
+2025-10-16 00:32:34,230 - INFO - Precomputation completed in 271.39s - 800 frames ready
+2025-10-16 00:32:34,301 - INFO - Precomputation monitoring completed
+2025-10-16 00:40:29,168 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.53.5.93:5001
+2025-10-16 00:40:29,168 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-16 00:40:41,767 - INFO - 127.0.0.1 - - [16/Oct/2025 00:40:41] "GET / HTTP/1.1" 200 -
+2025-10-16 00:40:42,071 - INFO - 127.0.0.1 - - [16/Oct/2025 00:40:42] "GET /socket.io/?EIO=4&transport=polling&t=PdfI1-L HTTP/1.1" 200 -
+2025-10-16 00:40:42,097 - INFO - 127.0.0.1 - - [16/Oct/2025 00:40:42] "POST /socket.io/?EIO=4&transport=polling&t=PdfI1-l&sid=gWNsLahgLQc9IQAfAAAA HTTP/1.1" 200 -
+2025-10-16 00:40:42,099 - INFO - 127.0.0.1 - - [16/Oct/2025 00:40:42] "GET /socket.io/?EIO=4&transport=polling&t=PdfI1-l.0&sid=gWNsLahgLQc9IQAfAAAA HTTP/1.1" 200 -
+2025-10-16 00:40:42,114 - INFO - 127.0.0.1 - - [16/Oct/2025 00:40:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-16 00:40:42,117 - INFO - 127.0.0.1 - - [16/Oct/2025 00:40:42] "GET /socket.io/?EIO=4&transport=polling&t=PdfI1_3&sid=gWNsLahgLQc9IQAfAAAA HTTP/1.1" 200 -
+2025-10-16 00:40:51,058 - INFO - Starting enhanced simulation precomputation...
+2025-10-16 00:40:51,059 - INFO - Computing frame 0/800
+2025-10-16 00:40:51,130 - INFO - Computing frame 1/800
+2025-10-16 00:40:51,166 - INFO - Computing frame 2/800
+2025-10-16 00:40:51,194 - INFO - Computing frame 3/800
+2025-10-16 00:40:51,221 - INFO - Computing frame 4/800
+2025-10-16 00:40:51,247 - INFO - Computing frame 5/800
+2025-10-16 00:40:51,274 - INFO - Computing frame 6/800
+2025-10-16 00:40:51,300 - INFO - Computing frame 7/800
+2025-10-16 00:40:51,327 - INFO - Computing frame 8/800
+2025-10-16 00:40:51,353 - INFO - Computing frame 9/800
+2025-10-16 00:40:52,394 - INFO - Computing frame 50/800
+2025-10-16 00:41:03,256 - INFO - Computing frame 100/800
+2025-10-16 00:41:20,789 - INFO - Computing frame 150/800
+2025-10-16 00:41:38,970 - INFO - Computing frame 200/800
+2025-10-16 00:41:57,551 - INFO - Computing frame 250/800
+2025-10-16 00:42:16,918 - INFO - Computing frame 300/800
+2025-10-16 00:42:36,947 - INFO - Computing frame 350/800
+2025-10-16 00:43:05,046 - INFO - Computing frame 400/800
+2025-10-16 00:43:26,076 - INFO - Computing frame 450/800
+2025-10-16 00:43:45,535 - INFO - Computing frame 500/800
+2025-10-16 00:44:05,987 - INFO - Computing frame 550/800
+2025-10-16 00:44:25,951 - INFO - Computing frame 600/800
+2025-10-16 00:44:45,892 - INFO - Computing frame 650/800
+2025-10-16 00:45:03,552 - INFO - Starting enhanced simulation precomputation...
+2025-10-16 00:45:03,552 - INFO - Computing frame 0/800
+2025-10-16 00:45:03,602 - INFO - Computing frame 1/800
+2025-10-16 00:45:03,631 - INFO - Computing frame 2/800
+2025-10-16 00:45:03,659 - INFO - Computing frame 3/800
+2025-10-16 00:45:03,692 - INFO - Computing frame 4/800
+2025-10-16 00:45:03,723 - INFO - Computing frame 5/800
+2025-10-16 00:45:03,757 - INFO - Computing frame 6/800
+2025-10-16 00:45:03,792 - INFO - Computing frame 7/800
+2025-10-16 00:45:03,822 - INFO - Computing frame 8/800
+2025-10-16 00:45:03,851 - INFO - Computing frame 9/800
+2025-10-16 00:45:04,947 - INFO - Computing frame 50/800
+2025-10-16 00:45:16,303 - INFO - Computing frame 100/800
+2025-10-16 00:45:32,884 - INFO - Computing frame 150/800
+2025-10-16 00:45:50,500 - INFO - Computing frame 200/800
+2025-10-16 00:46:09,333 - INFO - Computing frame 250/800
+2025-10-16 00:46:28,820 - INFO - Computing frame 300/800
+2025-10-16 00:46:49,287 - INFO - Computing frame 350/800
+2025-10-16 00:47:10,026 - INFO - Computing frame 400/800
+2025-10-16 00:47:34,419 - INFO - Computing frame 450/800
+2025-10-16 00:47:58,983 - INFO - Computing frame 500/800
+2025-10-16 00:48:24,039 - INFO - Computing frame 550/800
+2025-10-16 00:48:45,291 - INFO - Computing frame 600/800
+2025-10-16 00:49:07,524 - INFO - Computing frame 650/800
+2025-10-16 00:49:28,719 - INFO - Computing frame 700/800
+2025-10-16 00:49:51,752 - INFO - Computing frame 750/800
+2025-10-16 00:50:18,679 - INFO - Precomputation completed in 315.13s - 800 frames ready
+2025-10-16 00:50:18,701 - INFO - Precomputation monitoring completed
